@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #01121f; */
+}
+
+body{
+    background-color: #011627;
+}
+
+nav{
+    height: 60px;
+    background-color: #010e1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    max-width: 300px;
+    margin-left: 80px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-container{
+    /* border: 2px solid ; */
+    max-width: 700px;
+    /* margin: 30px auto; */
+    padding: 16px;
+}
+
+.post{
+    margin: 20px 10px 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: #0b2942;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.post-header{
+    position: relative;
+}
+
+.race {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    margin: 12px;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h2{
+    font-size: 2rem;
+    margin: 15px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 15px 172px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn{
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #328ab5;
+    border: none;
+}
+
+svg{
+    color: #3ca9f2;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 5px 5px ;
+}
+
+.social{
+    position: sticky;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+footer{
+    background-color: #010e1a;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.footer{
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.dark{
+    color: rgba(255, 255, 255, 0.9); 
+}
