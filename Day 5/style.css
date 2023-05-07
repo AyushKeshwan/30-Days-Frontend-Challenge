@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lato:wght@900&family=Raleway:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #f6e61c;
+}
+
+.main-container{
+    position: relative;
+    margin: 90px auto 0;
+    /* border: 1px solid; */
+}
+
+
+
+.card-container{
+    /* border: 2px solid; */
+    max-width: 560px;
+    border-radius: 16px;
+    background-color: #011627;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -9px 11px 20px 6px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: auto;
+}
+
+.card{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.author-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 24px;
+    border: 1px solid #f6e61c;
+}
+
+.header{
+    /* border: 2px solid orange; */
+    margin: 24px 0;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #f6e61c;
+    margin-bottom: 8px ;
+}
+
+.skills{
+    /* border: 2px solid blue; */
+    margin: 24px 0;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    color: #f6e61c;
+    margin-bottom: 8px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    color: rgba(248, 245, 217, 0.47);
+}
+
+.social{
+    /* border: 2px solid yellow; */
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+svg{
+    margin-right: 24px;
+}
+
+.line{
+    margin: 20px 0;
+    height: 2px;
+    background-color: rgba(248, 245, 217, 0.47);
+}
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: #f6e61c;
+}
+
+.sleek{
+    color: rgba(248, 245, 217, 0.47);
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+
+.author-name{
+    font-family: 'Lato', sans-serif;
+    color: #f6e61c;
+}
+
