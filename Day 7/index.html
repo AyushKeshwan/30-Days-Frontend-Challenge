@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 of 30</title>
+    <style>
+
+        body{
+            background-color: #be261f;
+        }
+
+        .container{
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card{
+            background-color: #1c315b;
+            border-radius: 16px;
+            width: 400px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -9px 11px 20px 6px rgba(0, 0, 0, 0.25);
+            padding: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .card-img{
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -9px 11px 20px 6px rgba(0, 0, 0, 0.25);
+        }
+
+        h1{
+            font-size: 2.3rem;
+            color: aliceblue;
+            opacity: 0.9;
+        }
+
+        p{
+            font-size: 1.2rem;
+            color: rgb(166, 209, 247);
+            opacity: 0.8;
+        }
+
+        .card:hover{
+            width: 600px;
+            animation-name: card-shake;
+            animation-duration: 1.2s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes card-shake{
+            100%{
+                transform: rotate(6deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="spidey.png" alt="" class="card-img">
+            <div class="content">
+                <h1>Spider Man</h1>
+                <p>"Being a superhero means facing sticky situations, both on the streets and in life. But hey, at least I never have to worry about finding a parking spot!" - Spider-Man</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
