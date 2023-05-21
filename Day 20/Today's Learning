@@ -1,0 +1,11 @@
+Excited to announce the completion of my movie searching app today!
+
+This app utilizes the powerful OMDb API to fetch all the essential details about your favorite movies.
+
+During development, I focused on enhancing the user interface, making it more visually appealing and intuitive. I've also implemented an error message page that gracefully handles cases when the API doesn't find a particular movie.
+
+To make searching even more convenient, I added a keypress event listener, allowing users to hit the "Enter" key to initiate the search.
+
+While the app's responsiveness is currently a work in progress, rest assured that I'm committed to making it fully responsive in the upcoming days.
+
+Stay tuned for more updates as I continue refining this movie searching app! 🎥🍿 #30DayCodingChallenge #MovieSearchApp
