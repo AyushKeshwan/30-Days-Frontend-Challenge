@@ -1,0 +1,7 @@
+
+🌟 Day 23 of my 30-day challenge: 
+Today, I delved into creating a dynamic menu page using React.
+🍽️ I leveraged an array of objects to store food items and used the map function to generate the menu items dynamically. 
+The highlight of this project was implementing a "Must Try" tag that only appears for items with a star rating above 4. ⭐ 
+Take a look at some snapshots of the menu page and the code I wrote. Excited to continue building more interactive projects! 
+#frontenddevelopment #react #webdevelopment
