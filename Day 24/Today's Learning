@@ -1,0 +1,7 @@
+ Day 24 of my 30-day challenge: Today, I dived into the world of React hooks and explored the useRef hook. 🎣 To solidify my understanding, I built a simple BMI calculator app using React, useState, and useRef hooks. With the useRef hook, I discovered its usefulness in accessing and managing DOM elements. Here are a few key takeaways:
+1️⃣ useRef allows us to reference and interact with DOM elements directly.
+2️⃣ It can be used to store mutable values across re-renders without triggering a re-render.
+3️⃣ useRef is especially handy for handling focus, capturing previous values, or integrating with third-party libraries.
+
+Additionally, I started exploring React Router DOM and single-page applications (SPA) concepts. Excited to apply these new learnings in more projects! 
+
